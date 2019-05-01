@@ -6,6 +6,7 @@ import Home from './Home';
 import About from './About';
 import Koa from './Koa';
 import Header from './Header'
+import KoaStuff from './KoaStuff'
 import PageNotFound from './PageNotFound'
 
 import { Link, Route, Switch, Redirect } from 'react-router-dom';
@@ -34,6 +35,7 @@ function App() {
         <Route component={PageNotFound} />
 
       </Switch>
+        <Route path="/koa/:koastuff" component={KoaStuff} />
     </div>
   );
 }
