@@ -5,15 +5,15 @@ function Koa(props) {
         <div>
             <h1>Koa</h1>
             <ul>
-                <li>
+                <p>
                     <Link to="/koa/ball">ball</Link>
-                </li>
-                <li>
+                </p>
+                <p>
                     <Link to="/koa/food">food</Link>
-                </li>
-                <li>
+                </p>
+                <p>
                     <Link to="/koa/bed">bed</Link>
-                </li>
+                </p>
 
             </ul>
         </div>
